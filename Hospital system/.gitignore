@@ -1,0 +1,5 @@
+/frontEnd/node_modules
+*/*-lock.json
+
+/.idea
+*/target

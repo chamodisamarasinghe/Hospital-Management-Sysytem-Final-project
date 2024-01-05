@@ -1,0 +1,53 @@
+/* Services.css */
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Prevent horizontal scroll bar */
+
+}
+
+.services-container h2 {
+    width: 100%;
+    color: #333;
+    text-align: center;
+}
+
+.services-container p {
+    width: 100%;
+    color: #666;
+    text-align: center;
+}
+
+.service-card {
+    width: 48%; /* Adjust width for two columns with a small gap */
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    background-color: #E0F4FF;
+    
+}
+
+.service-card h3 {
+    color: #333;
+}
+
+.service-card p {
+    color: #666;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Add more styles as needed */

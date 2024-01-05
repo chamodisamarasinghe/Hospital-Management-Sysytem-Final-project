@@ -1,0 +1,103 @@
+/* ContactUsPage.module.css */
+
+.container {
+    max-width: 600px;
+    height: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputGroup {
+    margin-bottom: 1rem;
+
+
+}
+
+.inputGroup label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.inputGroup input{
+    width: 100%;
+    padding: 0.25rem;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+.inputGroup textarea {
+    width: 100%;
+    padding: 0.25rem;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.inputGroup textarea {
+    resize: vertical;
+}
+
+.submitButton {
+    padding: 0.5rem 1rem;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 150px;
+    transition: background-color 0.3s ease;
+    justify-content: center;
+    display: flex;
+
+}
+
+.submitButton:hover {
+    background-color: dodgerblue;
+}
+
+
+
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 2rem auto;
+    gap: 3rem;
+}
+
+/* Container for the form */
+.formContainer {
+    flex: 1;
+    padding: 2rem;
+    max-width: 600px;
+    height: 600px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Container for the image */
+.imageContainer {
+
+    width: 570px;
+    margin-top: 100px;
+}
+
+.contactImage {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
